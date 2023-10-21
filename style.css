@@ -54,7 +54,7 @@ main{
 }
 .value{
     background-color: black;
-    border: 2px solid #cf0909;
+    border: 2px solid;
     padding: 20px;
     margin-bottom: 20px;
 }
