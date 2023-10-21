@@ -1,0 +1,81 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mooli&family=Poppins&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightpink;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    background-attachment:fixed;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+ul, li, h1{
+    display: inline;
+}
+ul{
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+li{
+    
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.comment-section{
+    top: 200px;
+    margin: 20px,50px;
+}
+.comment-box{
+    margin: 15px 0px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: gray;
+
+}
+.username, .email{
+    font-weight: bold;
+}
+
+footer{
+    background-attachment: fixed;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    
+}
+.copy{
+    text-align: center;
+    
+}
+main{
+    padding: 20px;
+    color: lightpink;
+    
+}
+.value{
+    background-color: black;
+    border: 2px solid #cf0909;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.value h3{
+    color:lightpink;
+}
+.value h4{
+    color: grey;
+}
+.value p{
+    color:white;
+}
