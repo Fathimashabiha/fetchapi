@@ -33,20 +33,8 @@ a{
     text-decoration: none;
     color: whitesmoke;
 }
-.comment-section{
-    top: 200px;
-    margin: 20px,50px;
-}
-.comment-box{
-    margin: 15px 0px;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: gray;
 
-}
-.username, .email{
-    font-weight: bold;
-}
+
 
 footer{
     background-attachment: fixed;
