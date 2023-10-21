@@ -1,4 +1,4 @@
-function fetchData() {
+function fetchValue() {
     fetch('https://jsonplaceholder.typicode.com/comments')
         .then(response => response.json())
         .then(data => {
@@ -20,4 +20,4 @@ function fetchData() {
 }
 
 
-fetchData();
+fetchValue();
