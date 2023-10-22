@@ -1,9 +1,10 @@
-function fetchValue() {
+function fetchValue(){
     fetch('https://jsonplaceholder.typicode.com/comments')
         .then(response => response.json())
         .then(data => {
             const main = document.querySelector('main');
-            data.forEach(value => {
+            const dataShow=data.filter(data=>data.id<=10);
+            dataShow.forEach(value => {
                 const valueElement = document.createElement('div');
                 valueElement.classList.add('value');
                 valueElement.innerHTML = `
